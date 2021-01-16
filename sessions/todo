@@ -1,0 +1,3 @@
+tmux new-session -d -s 'todo' -n 'neovim' -c ~/Projects/rust/todo_base 
+tmux new-window -t todo -n shell 
+tmux select-window -t todo:0
